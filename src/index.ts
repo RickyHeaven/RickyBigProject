@@ -5,7 +5,7 @@ import CounterF from '@/components/CounterF.vue'
 import '@/assets/main.less'
 
 const install = function (app: App, options: Record<string, any> = {}) {
-  app.component('SvgEditor', CounterF)
+  app.component('CounterF', CounterF)
 }
 
 export default { install }
