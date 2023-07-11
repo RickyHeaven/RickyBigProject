@@ -15,7 +15,7 @@
       "require": "./dist/vgce.umd.cjs",
       "types": "./types/index.d.ts"
     },
-    "./style.css": {
+    "./style": {
       "import": "./dist/style.css",
       "require": "./dist/style.css"
     }
