@@ -2,6 +2,7 @@
   "name": "test-plug-a-h",
   "version": "0.0.2",
   "description": "Test vue plugin. Base on vue3.3 + ts + vite",
+  "type": "module",
   "files": [
     "dist",
     "types"
@@ -14,13 +15,12 @@
       "require": "./dist/vgce.umd.cjs",
       "types": "./types/index.d.ts"
     },
-    "./dist/style.css": {
+    "./style.css": {
       "import": "./dist/style.css",
       "require": "./dist/style.css"
     }
   },
   "types": "types/index.d.ts",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",

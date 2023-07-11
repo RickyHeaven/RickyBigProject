@@ -1,6 +1,7 @@
 <script lang='ts' setup>
+  import {pinia} from "@/main"
   import {useCounterStore} from "@/stores/counter"
-  const countStore = useCounterStore()
+  const countStore = useCounterStore(pinia)
 </script>
 
 <template>
