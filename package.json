@@ -1,6 +1,6 @@
 {
   "name": "test-plug-a-h",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test vue plugin. Base on vue3.3 + ts + vite",
   "type": "module",
   "files": [
